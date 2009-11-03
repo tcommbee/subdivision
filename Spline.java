@@ -41,7 +41,6 @@ public class Spline {
 	private Point[] pts;
 	public Spline(String repr) {
 	}
-	//debug only
 	public Spline(int[] coords) {
 		pts = new Point[coords.length/2];
 		for(int i = 0; i < length/2-1; i++) {
